@@ -20,12 +20,12 @@ var isValid = function(s) {
     if (s[i] in obj) {
       myStack.push(s[i])
     } else {
-      if (obj[myStack[i-1]] === s[i]) {
-        myStack.pop()
-      } else {}
-      
+      if(s[i] !== obj[myStack.pop()]) {
+        return false
+      }
     }
   }
+  return !myStack.length
 };
 // @lc code=end
 
