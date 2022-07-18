@@ -16,7 +16,7 @@ var fib = function (n) {
   //     return a
   //   }
   //   return fibImpl(b, a + b, n - 1)
-  // }
+  // }0
   // return fibImpl(0, 1, n)
 
   // 增加一个数组实现

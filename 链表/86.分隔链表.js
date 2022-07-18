@@ -17,6 +17,7 @@
  * @param {number} x
  * @return {ListNode}
  */
+// [1,4,3,2,5,2]
 var partition = function(head, x) {
   // 定义两个指针，遍历两个链表，将对应的值放在对应的指针后面
   let h1 = new ListNode(0, null)
